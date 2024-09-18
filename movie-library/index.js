@@ -6,7 +6,7 @@ const app = express();
 const port = 5000;
 
 //Connect to MongoDB Atlas
-mongoose.connect('mongodb+srv://khoatran:1611@cluster0.idood8b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://<username>:<password>@cluster0.idood8b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
